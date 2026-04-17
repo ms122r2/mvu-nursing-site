@@ -2,17 +2,18 @@
   "root": {
     "props": {
       "title": "",
-      "description": "",
       "ogImage": "",
-      "headingFont": "",
       "bodyFont": "",
-      "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b",
       "accentColor": "#f59e0b",
+      "buttonStyle": "solid",
+      "description": "",
+      "headingFont": "",
       "borderRadius": "md",
-      "buttonStyle": "solid"
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#1e293b"
     }
   },
+  "zones": {},
   "content": [
     {
       "type": "HeroSection",
@@ -85,9 +86,9 @@
         ],
         "columns": "4",
         "heading": "<p>Our Nursing Programs</p>",
+        "sectionHeading": "<p>Why Choose MVU</p>",
         "backgroundColor": "light",
-        "animationVariant": "stagger",
-        "sectionHeading": "<p>Why Choose MVU</p>"
+        "animationVariant": "stagger"
       }
     },
     {
@@ -163,6 +164,5 @@
         "animationVariant": "fadeUp"
       }
     }
-  ],
-  "zones": {}
+  ]
 }
