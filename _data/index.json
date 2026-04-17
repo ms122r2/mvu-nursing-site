@@ -2,18 +2,17 @@
   "root": {
     "props": {
       "title": "",
-      "ogImage": "",
-      "bodyFont": "",
-      "accentColor": "#f59e0b",
-      "buttonStyle": "solid",
       "description": "",
+      "ogImage": "",
       "headingFont": "",
-      "borderRadius": "md",
+      "bodyFont": "",
       "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b"
+      "secondaryColor": "#1e293b",
+      "accentColor": "#f59e0b",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
     }
   },
-  "zones": {},
   "content": [
     {
       "type": "HeroSection",
@@ -146,7 +145,7 @@
             "question": "What financial aid is available?"
           }
         ],
-        "heading": "<p>Frequently Asked Questions</p>",
+        "heading": "<p>FAQ's</p>",
         "animationVariant": "fadeUp"
       }
     },
@@ -164,5 +163,6 @@
         "animationVariant": "fadeUp"
       }
     }
-  ]
+  ],
+  "zones": {}
 }
