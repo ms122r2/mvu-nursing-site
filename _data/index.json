@@ -86,7 +86,8 @@
         "columns": "4",
         "heading": "<p>Our Nursing Programs</p>",
         "backgroundColor": "light",
-        "animationVariant": "stagger"
+        "animationVariant": "stagger",
+        "sectionHeading": "<p>Why Choose MVU</p>"
       }
     },
     {
