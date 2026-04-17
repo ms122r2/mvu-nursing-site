@@ -27,7 +27,9 @@
         "_paddingBottom": "24",
         "backgroundImage": "https://nursing.maryville.edu/media_114040507063cb2db1db6a5.60498498.jpg",
         "animationVariant": "fadeUp",
-        "backgroundOverlay": "dark"
+        "backgroundOverlay": true,
+        "_btnColor": "#4f46e5",
+        "_headingColor": "#1A1A2E"
       }
     },
     {
