@@ -31,33 +31,6 @@
       }
     },
     {
-      "type": "StatCard",
-      "props": {
-        "id": "stats-home-001",
-        "stats": [
-          {
-            "label": "Student-Faculty Ratio",
-            "value": "15:1"
-          },
-          {
-            "label": "Online Coursework",
-            "value": "100%"
-          },
-          {
-            "label": "CCNE Accredited",
-            "value": "Yes"
-          },
-          {
-            "label": "Most Transformative (Money Magazine)",
-            "value": "#1"
-          }
-        ],
-        "heading": "<p></p>",
-        "backgroundColor": "brand",
-        "animationVariant": "stagger"
-      }
-    },
-    {
       "type": "FeatureGrid",
       "props": {
         "id": "programs-home-001",
@@ -146,7 +119,11 @@
           }
         ],
         "heading": "<p>FAQ's</p>",
-        "animationVariant": "fadeUp"
+        "_animEasing": "easeInOut",
+        "_scrollOnce": true,
+        "_animDuration": "1",
+        "_scrollEffect": "parallax-slow",
+        "animationVariant": "slideLeft"
       }
     },
     {
