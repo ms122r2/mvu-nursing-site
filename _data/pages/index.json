@@ -2,18 +2,17 @@
   "root": {
     "props": {
       "title": "",
-      "ogImage": "",
-      "bodyFont": "",
-      "accentColor": "#f59e0b",
-      "buttonStyle": "solid",
       "description": "",
+      "ogImage": "",
       "headingFont": "",
-      "borderRadius": "md",
+      "bodyFont": "",
       "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b"
+      "secondaryColor": "#1e293b",
+      "accentColor": "#f59e0b",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
     }
   },
-  "zones": {},
   "content": [
     {
       "type": "HeroSection",
@@ -61,7 +60,7 @@
         ],
         "columns": "4",
         "heading": "<p>Our Nursing Programs</p>",
-        "sectionHeading": "<p>Why Choose Maryville University</p>",
+        "sectionHeading": "<p>Why Choose MVU</p>",
         "backgroundColor": "light",
         "animationVariant": "stagger"
       }
@@ -143,5 +142,6 @@
         "animationVariant": "fadeUp"
       }
     }
-  ]
+  ],
+  "zones": {}
 }
