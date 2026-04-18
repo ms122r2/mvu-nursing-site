@@ -2,17 +2,18 @@
   "root": {
     "props": {
       "title": "",
-      "description": "",
       "ogImage": "",
-      "headingFont": "",
       "bodyFont": "",
-      "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b",
       "accentColor": "#f59e0b",
+      "buttonStyle": "solid",
+      "description": "",
+      "headingFont": "",
       "borderRadius": "md",
-      "buttonStyle": "solid"
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#1e293b"
     }
   },
+  "zones": {},
   "content": [
     {
       "type": "HeroSection",
@@ -38,22 +39,22 @@
         "id": "programs-home-001",
         "items": [
           {
-            "icon": "GraduationCap",
+            "icon": "🎓",
             "title": "RN to BSN",
             "description": "Complete your BSN in as few as 12 months. For licensed RNs ready to advance."
           },
           {
-            "icon": "Zap",
+            "icon": "⚡",
             "title": "Accelerated BSN",
             "description": "Earn your BSN in 16 months with no prior nursing experience required."
           },
           {
-            "icon": "Stethoscope",
+            "icon": "🩺",
             "title": "MSN — Family NP",
             "description": "Become a Family Nurse Practitioner. Diagnose, treat, and manage patient care."
           },
           {
-            "icon": "Award",
+            "icon": "🏆",
             "title": "DNP",
             "description": "The terminal nursing degree. Lead healthcare systems and shape policy."
           }
@@ -142,6 +143,5 @@
         "animationVariant": "fadeUp"
       }
     }
-  ],
-  "zones": {}
+  ]
 }
