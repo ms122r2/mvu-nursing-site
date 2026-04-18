@@ -112,7 +112,8 @@ const colClasses = {
 };
 
 export function FeatureGrid(allProps: FeatureGridProps) {
-  const { sectionHeading, features, columns, iconStyle, animationVariant, puck, ...rest } = allProps;
+  const { sectionHeading, features: featuresProp, columns, iconStyle, animationVariant, puck, ...rest } = allProps;
+  const features = featuresProp ?? ((allProps as unknown as Record<string, unknown>).items as typeof featuresProp) ?? [];
   const reduce = useReducedMotion();
   const variant = reduce ? "none" : animationVariant;
   const mp = getMotionProps(puck?.isEditing);
