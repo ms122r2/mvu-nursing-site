@@ -1,0 +1,147 @@
+{
+  "root": {
+    "props": {
+      "title": "",
+      "description": "",
+      "ogImage": "",
+      "headingFont": "",
+      "bodyFont": "",
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#1e293b",
+      "accentColor": "#f59e0b",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
+    }
+  },
+  "content": [
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "hero-home-001",
+        "ctaHref": "/online-nursing-programs",
+        "heading": "<p>Advance Your Nursing Career Onlines</p>",
+        "ctaLabel": "Explore Programs",
+        "_btnColor": "#4f46e5",
+        "alignment": "center",
+        "subheading": "<p>CCNE-accredited programs from Maryville University. 100% online coursework. Clinical placements in your community.</p>",
+        "_paddingTop": "24",
+        "_headingColor": "#1A1A2E",
+        "_paddingBottom": "24",
+        "backgroundImage": "https://nursing.maryville.edu/media_114040507063cb2db1db6a5.60498498.jpg",
+        "animationVariant": "fadeUp",
+        "backgroundOverlay": true
+      }
+    },
+    {
+      "type": "FeatureGrid",
+      "props": {
+        "id": "programs-home-001",
+        "items": [
+          {
+            "icon": "GraduationCap",
+            "title": "RN to BSN",
+            "description": "Complete your BSN in as few as 12 months. For licensed RNs ready to advance."
+          },
+          {
+            "icon": "Zap",
+            "title": "Accelerated BSN",
+            "description": "Earn your BSN in 16 months with no prior nursing experience required."
+          },
+          {
+            "icon": "Stethoscope",
+            "title": "MSN — Family NP",
+            "description": "Become a Family Nurse Practitioner. Diagnose, treat, and manage patient care."
+          },
+          {
+            "icon": "Award",
+            "title": "DNP",
+            "description": "The terminal nursing degree. Lead healthcare systems and shape policy."
+          }
+        ],
+        "columns": "4",
+        "heading": "<p>Our Nursing Programs</p>",
+        "sectionHeading": "<p>Why Choose MVU</p>",
+        "backgroundColor": "light",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "TestimonialSection",
+      "props": {
+        "id": "testimonials-home-001",
+        "columns": "3",
+        "heading": "<p>Hear From Maryville Nurses</p>",
+        "testimonials": [
+          {
+            "name": "Joe B.",
+            "role": "RN to BSN Graduate",
+            "image": "",
+            "quote": "Maryville made it possible for me to earn my BSN while working full-time. The online format was flexible but rigorous."
+          },
+          {
+            "name": "Tiffany N.",
+            "role": "DNP Graduate",
+            "image": "",
+            "quote": "Each semester built upon the previous one. The faculty truly cared about my success and were always available."
+          },
+          {
+            "name": "Celena S.",
+            "role": "MSN-FNP Student",
+            "image": "",
+            "quote": "The clinical placement support was outstanding. I completed all my hours at a site 10 minutes from home."
+          }
+        ],
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "FAQSection",
+      "props": {
+        "id": "faq-home-001",
+        "items": [
+          {
+            "answer": "Yes. All of Maryville's nursing programs are accredited by the Commission on Collegiate Nursing Education (CCNE), the gold standard in nursing education accreditation.",
+            "question": "Are Maryville's nursing programs accredited?"
+          },
+          {
+            "answer": "Yes. All didactic coursework is completed online. MSN and DNP programs include clinical components that you complete locally in your own community with placement support from Maryville.",
+            "question": "Is coursework really 100% online?"
+          },
+          {
+            "answer": "No. Maryville does not require GRE or entrance exams for any online nursing program.",
+            "question": "Do I need to take the GRE?"
+          },
+          {
+            "answer": "RN to BSN: 12 months. Accelerated BSN: 16 months. MSN-FNP: 24 months. DNP: 24-36 months. All timelines assume full-time enrollment.",
+            "question": "How long does each program take?"
+          },
+          {
+            "answer": "Maryville offers scholarships, employer tuition reimbursement partnerships, federal financial aid (FAFSA), and military benefits. Contact an enrollment advisor for a personalized financial plan.",
+            "question": "What financial aid is available?"
+          }
+        ],
+        "heading": "<p>FAQ's</p>",
+        "_animEasing": "easeInOut",
+        "_scrollOnce": true,
+        "_animDuration": "1",
+        "_scrollEffect": "parallax-slow",
+        "animationVariant": "slideLeft"
+      }
+    },
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-home-001",
+        "ctaHref": "#rfi",
+        "heading": "<p>Ready to Start Your Nursing Journey?</p>",
+        "ctaLabel": "Request Information",
+        "description": "<p>Connect with an enrollment advisor today. No application fees, no pressure — just answers about your next step.</p>",
+        "secondaryHref": "/online-nursing-programs",
+        "secondaryLabel": "Explore Programs",
+        "backgroundColor": "brand",
+        "animationVariant": "fadeUp"
+      }
+    }
+  ],
+  "zones": {}
+}
