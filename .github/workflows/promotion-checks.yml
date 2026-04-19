@@ -23,41 +23,20 @@ jobs:
           scope: "@ms122r2"
       - run: npm install --no-audit --no-fund
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npm run build
         env:
           NEXT_PRIVATE_TURBOPACK: "0"
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   link-check:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check internal links in _data/pages
-        run: |
-          node -e "
-          const fs = require('fs');
-          const path = require('path');
-          const manifest = JSON.parse(fs.readFileSync('_data/manifest.json', 'utf-8'));
-          const paths = new Set(manifest.pages.map(p => p.path));
-          let broken = [];
-          for (const p of manifest.pages) {
-            const data = JSON.parse(fs.readFileSync(path.join('_data/pages', p.file.replace(/\\\\.html$/, '.json')), 'utf-8'));
-            const str = JSON.stringify(data);
-            const links = [...str.matchAll(/\\"href\\"\\\\s*:\\\\s*\\"(\\\\/[^\\"#?]+)/g)].map(m => m[1]);
-            for (const link of links) {
-              if (!paths.has(link) && !link.startsWith('/api')) broken.push({ page: p.path, link });
-            }
-          }
-          if (broken.length) {
-            console.error('Broken internal links:', JSON.stringify(broken, null, 2));
-            process.exit(1);
-          }
-          console.log('All internal links resolve');
-          "
+      - run: node .github/scripts/link-check.mjs
 
   lighthouse:
     needs: build
@@ -87,6 +66,9 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund playwright
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Wait for Vercel preview
         id: preview
         uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
@@ -96,3 +78,10 @@ jobs:
       - name: Screenshot every page
         run: npx playwright install chromium
       - run: node .github/scripts/visual-diff.mjs ${{ steps.preview.outputs.url }}
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-diff-screenshots
+          path: visual-diff-artifacts/
+          retention-days: 90
