@@ -1,0 +1,286 @@
+{
+  "root": {
+    "props": {
+      "title": "RN to BSN Online",
+      "description": "Advance from RN to BSN online at Maryville University. CCNE accredited, no entrance exams, transfer-friendly — built for working nurses.",
+      "ogImage": "",
+      "headingFont": "Inter",
+      "bodyFont": "Inter",
+      "primaryColor": "#B12025",
+      "secondaryColor": "#1B365D",
+      "accentColor": "#F4B223",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
+    }
+  },
+  "content": [
+    {
+      "type": "HeaderNav",
+      "props": {
+        "id": "nav-1",
+        "logo": "",
+        "sticky": true,
+        "ctaHref": "#rfi",
+        "logoAlt": "Maryville University",
+        "ctaLabel": "Request Info",
+        "navItems": [
+          {
+            "href": "/programs",
+            "label": "Programs"
+          },
+          {
+            "href": "/admissions",
+            "label": "Admissions"
+          },
+          {
+            "href": "/tuition",
+            "label": "Tuition & Aid"
+          },
+          {
+            "href": "/stories",
+            "label": "Student Stories"
+          }
+        ]
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "hero-1",
+        "ctaHref": "#rfi",
+        "heading": "Online RN to BSN",
+        "ctaLabel": "Request Information",
+        "alignment": "left",
+        "subheading": "The next step for working RNs — complete your bachelor's online in as few as 12 months. CCNE accredited. No GRE.",
+        "backgroundImage": "https://nursing.maryville.edu/media_1a776e97c5ed645623d95789ddd89d6e23c2f2c28.jpg?width=1920&format=jpg&optimize=medium",
+        "animationVariant": "fadeUp",
+        "backgroundOverlay": true
+      }
+    },
+    {
+      "type": "StatCard",
+      "props": {
+        "id": "stats-1",
+        "stats": [
+          {
+            "label": "Complete in as few as 12 months",
+            "value": "12+ mo"
+          },
+          {
+            "label": "Median BSN Salary (BLS)",
+            "value": "$73,300"
+          },
+          {
+            "label": "Per-credit tuition",
+            "value": "$398"
+          },
+          {
+            "label": "Online",
+            "value": "100%"
+          }
+        ],
+        "heading": "",
+        "backgroundColor": "light",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "ContentBlock",
+      "props": {
+        "id": "content-1",
+        "body": "The BSN is fast becoming the new standard of care. Magnet hospitals require it. IOM and AACN recommend 80% of the nursing workforce hold a BSN. Maryville's online RN to BSN gives you the credential and the clinical leadership skills to match — without pulling you off the floor.",
+        "image": "https://nursing.maryville.edu/media_19b4a24b43ec640e9af6c0bf3acc5785302c741b8.jpg?width=900&format=jpg&optimize=medium",
+        "heading": "Designed Around the Realities of Working Nurses",
+        "imagePosition": "right",
+        "backgroundColor": "white",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "FeatureGrid",
+      "props": {
+        "id": "features-1",
+        "columns": "3",
+        "features": [
+          {
+            "icon": "🩺",
+            "heading": "Advanced Clinical Assessment",
+            "description": "Build on your RN foundation with evidence-based assessment frameworks."
+          },
+          {
+            "icon": "👥",
+            "heading": "Team Leadership",
+            "description": "Lead interdisciplinary teams and coordinate patient-centered care."
+          },
+          {
+            "icon": "📊",
+            "heading": "Healthcare Informatics",
+            "description": "Use data to drive quality improvement and patient safety outcomes."
+          },
+          {
+            "icon": "⚖️",
+            "heading": "Policy & Ethics",
+            "description": "Navigate healthcare policy, ethics, and the regulatory landscape."
+          },
+          {
+            "icon": "🌍",
+            "heading": "Community & Population Health",
+            "description": "Address social determinants of health and population-level outcomes."
+          },
+          {
+            "icon": "🔬",
+            "heading": "Evidence-Based Practice",
+            "description": "Translate research into practice at the bedside."
+          }
+        ],
+        "iconStyle": "circle",
+        "sectionHeading": "What You'll Learn",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "ContentBlock",
+      "props": {
+        "id": "content-curriculum",
+        "body": "You've already logged the clinical hours. The RN to BSN recognizes that. Maryville awards block credit for your ADN or nursing diploma, so the online coursework focuses on the leadership, research, and community-health competencies that separate a BSN-prepared nurse from an RN. Courses run in 8-week terms, six starts per year.",
+        "image": "",
+        "heading": "Curriculum Built Around Your RN Experience",
+        "imagePosition": "left",
+        "backgroundColor": "gray",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "PricingTable",
+      "props": {
+        "id": "pricing-1",
+        "tiers": [
+          {
+            "name": "Per-Credit",
+            "price": "$398",
+            "period": "per credit hour",
+            "ctaHref": "#requirements",
+            "ctaLabel": "See Requirements",
+            "features": "No GRE required\nNo application fee\n8-week courses\n6 start dates per year",
+            "description": "Pay only for what you take. No application fee.",
+            "highlighted": false
+          },
+          {
+            "name": "Full Program",
+            "price": "~$12,736",
+            "period": "total (32 credits)",
+            "ctaHref": "#rfi",
+            "ctaLabel": "Request Info",
+            "features": "CCNE accredited\n100% online\nTransfer credit included\nCareer services",
+            "description": "Typical RN to BSN cost for students transferring 96 credits.",
+            "highlighted": true
+          }
+        ],
+        "heading": "Tuition & Investment",
+        "subheading": "Transparent pricing. No hidden fees. Most students qualify for financial aid.",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "TestimonialSection",
+      "props": {
+        "id": "testimonials-1",
+        "columns": "2",
+        "heading": "From Our RN to BSN Students",
+        "testimonials": [
+          {
+            "name": "Joe B.",
+            "role": "RN to BSN Student",
+            "image": "",
+            "quote": "I feel like Maryville is really helping to prepare me for my career path."
+          },
+          {
+            "name": "Annie Z.",
+            "role": "Team Lead, Student Success",
+            "image": "",
+            "quote": "Strong support at Maryville means being consistently reachable. That made the difference."
+          }
+        ],
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "FAQSection",
+      "props": {
+        "id": "faq-1",
+        "items": [
+          {
+            "answer": "Yes. You must hold an active RN license and have completed an accredited associate degree or diploma in nursing.",
+            "question": "Do I need to be licensed to apply?"
+          },
+          {
+            "answer": "Maryville awards block credit for prior nursing education. Most students transfer 96 credits and complete the BSN in 32 credits.",
+            "question": "How much credit will I receive for my RN?"
+          },
+          {
+            "answer": "The RN to BSN program does not require additional clinical hours beyond what you've already completed as an RN.",
+            "question": "Is there a clinical requirement?"
+          },
+          {
+            "answer": "Many working nurses complete the program in as few as 12 months. Your pace depends on the number of courses you take per term.",
+            "question": "How long will it take?"
+          }
+        ],
+        "heading": "RN to BSN FAQ",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-1",
+        "ctaHref": "#rfi",
+        "heading": "Start Your BSN Today",
+        "ctaLabel": "Request Information",
+        "description": "Request information and a Maryville advisor will reach out within one business day.",
+        "secondaryHref": "#",
+        "secondaryLabel": "Download Brochure",
+        "backgroundColor": "brand",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "footer-1",
+        "logo": "",
+        "columns": [
+          {
+            "content": "RN to BSN\nMSN\nDNP\nPost-Master's Certificates",
+            "heading": "Programs"
+          },
+          {
+            "content": "How to Apply\nTuition & Aid\nTransfer Credit\nFAQ",
+            "heading": "Admissions"
+          },
+          {
+            "content": "1-800-627-9855\nonline@maryville.edu",
+            "heading": "Contact"
+          }
+        ],
+        "logoAlt": "Maryville University",
+        "copyright": "© 2026 Maryville University. All rights reserved.",
+        "bottomLinks": [
+          {
+            "href": "/privacy",
+            "label": "Privacy"
+          },
+          {
+            "href": "/accessibility",
+            "label": "Accessibility"
+          },
+          {
+            "href": "/consumer-info",
+            "label": "Consumer Info"
+          }
+        ]
+      }
+    }
+  ],
+  "zones": {}
+}
