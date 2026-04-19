@@ -1,0 +1,86 @@
+name: Promotion Checks
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      preview-url: ${{ steps.deploy.outputs.preview-url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+        env:
+          NEXT_PRIVATE_TURBOPACK: "0"
+
+  link-check:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check internal links in _data/pages
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          const manifest = JSON.parse(fs.readFileSync('_data/manifest.json', 'utf-8'));
+          const paths = new Set(manifest.pages.map(p => p.path));
+          let broken = [];
+          for (const p of manifest.pages) {
+            const data = JSON.parse(fs.readFileSync(path.join('_data/pages', p.file.replace(/\\.html$/, '.json')), 'utf-8'));
+            const str = JSON.stringify(data);
+            const links = [...str.matchAll(/\"href\"\\s*:\\s*\"(\\/[^\"#?]+)/g)].map(m => m[1]);
+            for (const link of links) {
+              if (!paths.has(link) && !link.startsWith('/api')) broken.push({ page: p.path, link });
+            }
+          }
+          if (broken.length) {
+            console.error('Broken internal links:', JSON.stringify(broken, null, 2));
+            process.exit(1);
+          }
+          console.log('All internal links resolve');
+          "
+
+  lighthouse:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for Vercel preview
+        id: preview
+        uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          max_timeout: 300
+      - uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            ${{ steps.preview.outputs.url }}
+          budgetPath: ./.github/lighthouse-budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+  visual-diff:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Wait for Vercel preview
+        id: preview
+        uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          max_timeout: 300
+      - name: Screenshot every page
+        run: npx playwright install chromium
+      - run: node .github/scripts/visual-diff.mjs ${{ steps.preview.outputs.url }}
