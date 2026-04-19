@@ -1,6 +1,6 @@
 {
   "siteId": "4bd28077-a763-4073-b970-6a48cc8ac314",
-  "publishedAt": "2026-04-19T05:13:57.412Z",
+  "publishedAt": "2026-04-19T06:20:42.879Z",
   "pages": [
     {
       "id": "36c06bef-a3e3-4789-9e5c-31282740f1ca",
@@ -21,22 +21,22 @@
       "publishedAt": "2026-04-15T16:45:40.163+00:00"
     },
     {
-      "id": "37c86250-5c80-451a-924f-6ff86477de5a",
-      "slug": "online-nursing-programs",
-      "path": "/online-nursing-programs",
-      "file": "online-nursing-programs.html",
-      "title": "Online Nursing Programs",
-      "status": "published",
-      "publishedAt": "2026-04-18T01:50:37.624+00:00"
-    },
-    {
       "id": "a6f9a719-aa63-43d6-b835-b48870645808",
       "slug": "index",
       "path": "/",
       "file": "index.html",
       "title": "Homepage",
       "status": "published",
-      "publishedAt": "2026-04-19T04:02:33.544+00:00"
+      "publishedAt": "2026-04-19T04:48:12.929+00:00"
+    },
+    {
+      "id": "37c86250-5c80-451a-924f-6ff86477de5a",
+      "slug": "online-nursing-programs",
+      "path": "/online-nursing-programs",
+      "file": "online-nursing-programs.html",
+      "title": "Online Nursing Programs",
+      "status": "published",
+      "publishedAt": "2026-04-19T06:20:40.617+00:00"
     }
   ]
 }
