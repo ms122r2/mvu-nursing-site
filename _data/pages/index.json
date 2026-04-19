@@ -2,17 +2,18 @@
   "root": {
     "props": {
       "title": "",
-      "description": "",
       "ogImage": "",
-      "headingFont": "",
       "bodyFont": "",
-      "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b",
       "accentColor": "#f59e0b",
+      "buttonStyle": "solid",
+      "description": "",
+      "headingFont": "",
       "borderRadius": "md",
-      "buttonStyle": "solid"
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#1e293b"
     }
   },
+  "zones": {},
   "content": [
     {
       "type": "HeroSection",
@@ -28,9 +29,9 @@
         "_headingColor": "#1A1A2E",
         "_paddingBottom": "24",
         "backgroundImage": "https://nursing.maryville.edu/media_114040507063cb2db1db6a5.60498498.jpg",
+        "_mobileTextAlign": "center",
         "animationVariant": "fadeUp",
-        "backgroundOverlay": true,
-        "_mobileTextAlign": "center"
+        "backgroundOverlay": true
       }
     },
     {
@@ -143,6 +144,5 @@
         "animationVariant": "fadeUp"
       }
     }
-  ],
-  "zones": {}
+  ]
 }
