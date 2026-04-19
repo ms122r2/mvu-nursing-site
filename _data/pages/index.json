@@ -2,25 +2,24 @@
   "root": {
     "props": {
       "title": "",
-      "ogImage": "",
-      "bodyFont": "",
-      "accentColor": "#f59e0b",
-      "buttonStyle": "solid",
       "description": "",
+      "ogImage": "",
       "headingFont": "",
-      "borderRadius": "md",
+      "bodyFont": "",
       "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b"
+      "secondaryColor": "#1e293b",
+      "accentColor": "#f59e0b",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
     }
   },
-  "zones": {},
   "content": [
     {
       "type": "HeroSection",
       "props": {
         "id": "hero-home-001",
         "ctaHref": "/online-nursing-programs",
-        "heading": "<p>Advance Your Nursing Career Onlines</p>",
+        "heading": "<p style=\"text-align: center;\">Test</p>",
         "ctaLabel": "Explore Programs",
         "_btnColor": "#4f46e5",
         "alignment": "center",
@@ -30,37 +29,38 @@
         "_paddingBottom": "24",
         "backgroundImage": "https://nursing.maryville.edu/media_114040507063cb2db1db6a5.60498498.jpg",
         "animationVariant": "fadeUp",
-        "backgroundOverlay": true
+        "backgroundOverlay": true,
+        "_mobileTextAlign": "center"
       }
     },
     {
       "type": "FeatureGrid",
       "props": {
         "id": "programs-home-001",
-        "items": [
+        "columns": "4",
+        "heading": "<p>Our Nursing Programs</p>",
+        "features": [
           {
             "icon": "🎓",
-            "title": "RN to BSN",
+            "heading": "RN to BSN",
             "description": "Complete your BSN in as few as 12 months. For licensed RNs ready to advance."
           },
           {
             "icon": "⚡",
-            "title": "Accelerated BSN",
+            "heading": "Accelerated BSN",
             "description": "Earn your BSN in 16 months with no prior nursing experience required."
           },
           {
             "icon": "🩺",
-            "title": "MSN — Family NP",
+            "heading": "MSN — Family NP",
             "description": "Become a Family Nurse Practitioner. Diagnose, treat, and manage patient care."
           },
           {
             "icon": "🏆",
-            "title": "DNP",
+            "heading": "DNP",
             "description": "The terminal nursing degree. Lead healthcare systems and shape policy."
           }
         ],
-        "columns": "4",
-        "heading": "<p>Our Nursing Programs</p>",
         "sectionHeading": "<p>Why Choose MVU</p>",
         "backgroundColor": "light",
         "animationVariant": "stagger"
@@ -143,5 +143,6 @@
         "animationVariant": "fadeUp"
       }
     }
-  ]
+  ],
+  "zones": {}
 }
