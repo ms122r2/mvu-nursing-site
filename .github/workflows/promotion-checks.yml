@@ -78,3 +78,10 @@ jobs:
       - name: Screenshot every page
         run: npx playwright install chromium
       - run: node .github/scripts/visual-diff.mjs ${{ steps.preview.outputs.url }}
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-diff-screenshots
+          path: visual-diff-artifacts/
+          retention-days: 90
