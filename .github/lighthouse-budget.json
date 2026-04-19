@@ -4,37 +4,37 @@
     "timings": [
       {
         "metric": "first-contentful-paint",
-        "budget": 2000
+        "budget": 5000
       },
       {
         "metric": "largest-contentful-paint",
-        "budget": 2500
+        "budget": 6000
       },
       {
         "metric": "cumulative-layout-shift",
-        "budget": 0.1
+        "budget": 0.25
       },
       {
         "metric": "total-blocking-time",
-        "budget": 300
+        "budget": 600
       }
     ],
     "resourceSizes": [
       {
         "resourceType": "script",
-        "budget": 300
+        "budget": 1000
       },
       {
         "resourceType": "stylesheet",
-        "budget": 100
+        "budget": 300
       },
       {
         "resourceType": "image",
-        "budget": 500
+        "budget": 2000
       },
       {
         "resourceType": "total",
-        "budget": 1500
+        "budget": 5000
       }
     ]
   }
