@@ -14,10 +14,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
+      - run: npm install --no-audit --no-fund
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npm run build
         env:
           NEXT_PRIVATE_TURBOPACK: "0"
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   link-check:
     needs: build
@@ -33,9 +36,9 @@ jobs:
           const paths = new Set(manifest.pages.map(p => p.path));
           let broken = [];
           for (const p of manifest.pages) {
-            const data = JSON.parse(fs.readFileSync(path.join('_data/pages', p.file.replace(/\\.html$/, '.json')), 'utf-8'));
+            const data = JSON.parse(fs.readFileSync(path.join('_data/pages', p.file.replace(/\\\\.html$/, '.json')), 'utf-8'));
             const str = JSON.stringify(data);
-            const links = [...str.matchAll(/\"href\"\\s*:\\s*\"(\\/[^\"#?]+)/g)].map(m => m[1]);
+            const links = [...str.matchAll(/\\"href\\"\\\\s*:\\\\s*\\"(\\\\/[^\\"#?]+)/g)].map(m => m[1]);
             for (const link of links) {
               if (!paths.has(link) && !link.startsWith('/api')) broken.push({ page: p.path, link });
             }
@@ -74,7 +77,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
+      - run: npm install --no-audit --no-fund playwright
       - name: Wait for Vercel preview
         id: preview
         uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
