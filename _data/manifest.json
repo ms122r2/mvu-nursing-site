@@ -1,6 +1,6 @@
 {
   "siteId": "4bd28077-a763-4073-b970-6a48cc8ac314",
-  "publishedAt": "2026-04-20T16:11:49.174Z",
+  "publishedAt": "2026-04-20T16:33:33.251Z",
   "pages": [
     {
       "id": "a6f9a719-aa63-43d6-b835-b48870645808",
@@ -18,17 +18,7 @@
       "file": "online-nursing-programs.html",
       "title": "Online Nursing Programs",
       "status": "published",
-      "publishedAt": "2026-04-20T16:11:46.343+00:00"
-    },
-    {
-      "id": "ea70f637-e2ba-4c11-8364-a952d1e4490f",
-      "slug": "msn-family-nurse-practitioner",
-      "path": "/online-nursing-programs/msn-family-nurse-practitioner",
-      "file": "online-nursing-programs/msn-family-nurse-practitioner.html",
-      "title": "MSN — Family Nurse Practitioner",
-      "parent": "online-nursing-programs",
-      "status": "published",
-      "publishedAt": "2026-04-15T16:45:40.163+00:00"
+      "publishedAt": "2026-04-20T16:33:30.864+00:00"
     },
     {
       "id": "36c06bef-a3e3-4789-9e5c-31282740f1ca",
@@ -39,6 +29,16 @@
       "parent": "online-nursing-programs",
       "status": "published",
       "publishedAt": "2026-04-19T19:35:31.165+00:00"
+    },
+    {
+      "id": "ea70f637-e2ba-4c11-8364-a952d1e4490f",
+      "slug": "msn-family-nurse-practitioner",
+      "path": "/online-nursing-programs/msn-family-nurse-practitioner",
+      "file": "online-nursing-programs/msn-family-nurse-practitioner.html",
+      "title": "MSN — Family Nurse Practitioner",
+      "parent": "online-nursing-programs",
+      "status": "published",
+      "publishedAt": "2026-04-15T16:45:40.163+00:00"
     }
   ]
 }
