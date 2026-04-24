@@ -147,7 +147,7 @@
         "heading": "<p>BSN Curriculum Overview</p>",
         "imagePosition": "left",
         "backgroundColor": "gray",
-        "animationVariant": "fadeUp"
+        "animationVariant": "slideLeft"
       }
     },
     {
