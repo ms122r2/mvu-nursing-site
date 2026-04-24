@@ -51,7 +51,7 @@
         "heading": "<p>Bachelor of Science in Nursing</p>",
         "ctaLabel": "Request Information",
         "alignment": "center",
-        "subheading": "Build the clinical foundation and leadership mindset the next decade of healthcare demands. CCNE accredited. Transfer-friendly. Stackable into MSN and DNP.",
+        "subheading": "<p>Build the clinical foundation and leadership mindset the next decade of healthcare demands. CCNE accredited. Transfer-friendly. Stackable into MSN and DNP.</p>",
         "backgroundImage": "https://nursing.maryville.edu/media_1a776e97c5ed645623d95789ddd89d6e23c2f2c28.jpg?width=1920&format=jpg&optimize=medium",
         "animationVariant": "fadeUp",
         "backgroundOverlay": true
@@ -88,7 +88,7 @@
       "type": "ContentBlock",
       "props": {
         "id": "content-1",
-        "body": "The Institute of Medicine called for 80% of the U.S. nursing workforce to hold a BSN. Magnet hospitals require it. Employers increasingly require it. Beyond credentialing, the BSN builds the research, leadership, and population-health competencies that separate nurses who follow the care plan from nurses who shape it.",
+        "body": "<p>The Institute of Medicine called for 80% of the U.S. nursing workforce to hold a BSN. Magnet hospitals require it. Employers increasingly require it. Beyond credentialing, the BSN builds the research, leadership, and population-health competencies that separate nurses who follow the care plan from nurses who shape it.</p>",
         "image": "https://nursing.maryville.edu/media_19b4a24b43ec640e9af6c0bf3acc5785302c741b8.jpg?width=900&format=jpg&optimize=medium",
         "heading": "<p>Why the Bachelor of Science in Nursing Matters Now</p>",
         "imagePosition": "right",
@@ -134,7 +134,7 @@
           }
         ],
         "iconStyle": "circle",
-        "sectionHeading": "Program Highlights",
+        "sectionHeading": "<p>Bachelor of Science in Nursing Program Highlights</p>",
         "animationVariant": "stagger"
       }
     },
