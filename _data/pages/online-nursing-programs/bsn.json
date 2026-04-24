@@ -2,18 +2,17 @@
   "root": {
     "props": {
       "title": "Bachelor of Science in Nursing (BSN) | Maryville University",
-      "ogImage": "",
-      "bodyFont": "Open Sans",
-      "accentColor": "#F4B223",
-      "buttonStyle": "solid",
       "description": "Earn your BSN online at Maryville. CCNE-accredited, transfer-friendly, with a direct pathway into MSN and DNP study. Prepare for the NCLEX-RN and a leadership-ready nursing career.",
+      "ogImage": "",
       "headingFont": "Playfair Display",
-      "borderRadius": "md",
+      "bodyFont": "Open Sans",
       "primaryColor": "#B12025",
-      "secondaryColor": "#1B365D"
+      "secondaryColor": "#1B365D",
+      "accentColor": "#F4B223",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
     }
   },
-  "zones": {},
   "content": [
     {
       "type": "HeaderNav",
@@ -56,6 +55,64 @@
         "backgroundImage": "https://nursing.maryville.edu/media_1a776e97c5ed645623d95789ddd89d6e23c2f2c28.jpg?width=1920&format=jpg&optimize=medium",
         "animationVariant": "fadeUp",
         "backgroundOverlay": true
+      }
+    },
+    {
+      "type": "CTABanner",
+      "props": {
+        "heading": "<p>Ready to Get Started?</p>",
+        "description": "Take the next step in your educational journey today.",
+        "ctaLabel": "Apply Now",
+        "ctaHref": "#",
+        "secondaryLabel": "Learn More",
+        "secondaryHref": "#",
+        "_btnSize": "md",
+        "_btnVariant": "solid",
+        "_btnColor": "#4f46e5",
+        "_btnRadius": "md",
+        "_btnHoverColor": "",
+        "_btnHoverScale": "1.02",
+        "_btnMagnetic": "off",
+        "backgroundColor": "brand",
+        "animationVariant": "fadeUp",
+        "_animDelay": "0",
+        "_animDuration": "0.4",
+        "_animEasing": "easeOut",
+        "_scrollEffect": "none",
+        "_scrollOnce": true,
+        "_headingFont": "",
+        "_headingSize": "",
+        "_headingWeight": "",
+        "_headingColor": "",
+        "_bodySize": "",
+        "_letterSpacing": "",
+        "_lineHeight": "",
+        "_textTransform": "",
+        "_paddingTop": "",
+        "_paddingBottom": "",
+        "_paddingX": "",
+        "_marginTop": "",
+        "_marginBottom": "",
+        "_borderRadius": "none",
+        "_shadow": "none",
+        "_opacity": "100",
+        "_hideOnMobile": false,
+        "_hideOnDesktop": false,
+        "_paddingTop_tablet": "",
+        "_paddingBottom_tablet": "",
+        "_paddingX_tablet": "",
+        "_marginTop_tablet": "",
+        "_marginBottom_tablet": "",
+        "_paddingTop_mobile": "",
+        "_paddingBottom_mobile": "",
+        "_paddingX_mobile": "",
+        "_marginTop_mobile": "",
+        "_marginBottom_mobile": "",
+        "_mobileTextAlign": "",
+        "_mobileColumns": "",
+        "_mobilePaddingY": "",
+        "_mobileHeadingSize": "",
+        "id": "CTABanner-cc2f9864-e047-4ccb-a688-2da352111a37"
       }
     },
     {
@@ -310,5 +367,6 @@
         ]
       }
     }
-  ]
+  ],
+  "zones": {}
 }
