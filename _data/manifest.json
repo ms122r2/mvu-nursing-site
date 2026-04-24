@@ -1,44 +1,217 @@
 {
   "siteId": "4bd28077-a763-4073-b970-6a48cc8ac314",
-  "publishedAt": "2026-04-20T16:33:33.251Z",
+  "publishedAt": "2026-04-24T04:30:05.111Z",
   "pages": [
     {
-      "id": "a6f9a719-aa63-43d6-b835-b48870645808",
-      "slug": "index",
-      "path": "/",
-      "file": "index.html",
-      "title": "Homepage",
-      "status": "published",
-      "publishedAt": "2026-04-20T05:55:21.943+00:00"
+      "id": "6ab58467-111c-4d7b-ba8d-23687436697e",
+      "slug": "why-maryville",
+      "path": "/why-maryville",
+      "file": "why-maryville.html",
+      "title": "Why Maryville",
+      "status": "published"
     },
     {
-      "id": "37c86250-5c80-451a-924f-6ff86477de5a",
-      "slug": "online-nursing-programs",
-      "path": "/online-nursing-programs",
-      "file": "online-nursing-programs.html",
-      "title": "Online Nursing Programs",
-      "status": "published",
-      "publishedAt": "2026-04-20T16:33:30.864+00:00"
+      "id": "6856397f-a343-4be1-9dc3-82e5b56c64a4",
+      "slug": "request-information",
+      "path": "/request-information",
+      "file": "request-information.html",
+      "title": "Request Information",
+      "status": "published"
     },
     {
-      "id": "36c06bef-a3e3-4789-9e5c-31282740f1ca",
+      "id": "e1ddf8d3-94a6-414a-a5ad-96ef21f61df5",
+      "slug": "admissions",
+      "path": "/admissions",
+      "file": "admissions.html",
+      "title": "Admissions",
+      "status": "published"
+    },
+    {
+      "id": "d67029e4-9913-4eee-8b08-9483db676d17",
+      "slug": "msn-nurse-educator",
+      "path": "/online-nursing-programs/msn-nurse-educator",
+      "file": "online-nursing-programs/msn-nurse-educator.html",
+      "title": "MSN — Nurse Educator",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "06f44ed5-78f5-4b82-b360-0a5cb6d71ef9",
       "slug": "rn-to-bsn",
       "path": "/online-nursing-programs/rn-to-bsn",
       "file": "online-nursing-programs/rn-to-bsn.html",
       "title": "Online RN to BSN",
       "parent": "online-nursing-programs",
-      "status": "published",
-      "publishedAt": "2026-04-19T19:35:31.165+00:00"
+      "status": "published"
     },
     {
-      "id": "ea70f637-e2ba-4c11-8364-a952d1e4490f",
+      "id": "41a84801-bcca-46d4-9403-c9ade6f8987b",
+      "slug": "absn",
+      "path": "/online-nursing-programs/absn",
+      "file": "online-nursing-programs/absn.html",
+      "title": "Accelerated BSN",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "08aa150a-5bdb-4b23-8732-e9612aab974b",
+      "slug": "msn-pmhnp",
+      "path": "/online-nursing-programs/msn-pmhnp",
+      "file": "online-nursing-programs/msn-pmhnp.html",
+      "title": "MSN — Psychiatric Mental Health NP",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "de7e3c25-dcff-4990-a1c6-fa77de6da45d",
+      "slug": "agpcnp",
+      "path": "/online-nursing-programs/agpcnp",
+      "file": "online-nursing-programs/agpcnp.html",
+      "title": "Adult-Gerontology Primary Care NP",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "995bc4f5-ff29-47bd-92c0-150c9adc85b8",
+      "slug": "nurse-educator-concentration",
+      "path": "/online-nursing-programs/nurse-educator-concentration",
+      "file": "online-nursing-programs/nurse-educator-concentration.html",
+      "title": "Nurse Educator Concentration",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "25c59f50-5fc9-4397-b78d-1e02201e1a01",
+      "slug": "student-life",
+      "path": "/why-maryville/student-life",
+      "file": "why-maryville/student-life.html",
+      "title": "Student Life",
+      "parent": "why-maryville",
+      "status": "published"
+    },
+    {
+      "id": "e1639c25-9cda-4c28-bf92-6579fb945917",
+      "slug": "bsn",
+      "path": "/online-nursing-programs/bsn",
+      "file": "online-nursing-programs/bsn.html",
+      "title": "Bachelor of Science in Nursing",
+      "parent": "online-nursing-programs",
+      "status": "published",
+      "publishedAt": "2026-04-24T04:30:02.408+00:00"
+    },
+    {
+      "id": "b33ac4a1-0a80-4c4b-b821-ff79f3c74b2e",
+      "slug": "index",
+      "path": "/",
+      "file": "index.html",
+      "title": "Homepage",
+      "status": "published"
+    },
+    {
+      "id": "674b4bdc-4d41-453d-b266-be74fb6ab5fb",
       "slug": "msn-family-nurse-practitioner",
       "path": "/online-nursing-programs/msn-family-nurse-practitioner",
       "file": "online-nursing-programs/msn-family-nurse-practitioner.html",
       "title": "MSN — Family Nurse Practitioner",
       "parent": "online-nursing-programs",
-      "status": "published",
-      "publishedAt": "2026-04-15T16:45:40.163+00:00"
+      "status": "published"
+    },
+    {
+      "id": "961e80ba-dad4-4736-acb3-cc15ee962c1c",
+      "slug": "online-nursing-programs",
+      "path": "/online-nursing-programs",
+      "file": "online-nursing-programs.html",
+      "title": "Online Nursing Programs",
+      "status": "published"
+    },
+    {
+      "id": "38cfa5c3-2736-4a25-b66b-ff79db8155f5",
+      "slug": "pathways",
+      "path": "/pathways",
+      "file": "pathways.html",
+      "title": "Career Pathways",
+      "status": "published"
+    },
+    {
+      "id": "b97ccb70-6581-4409-8746-b4be4d4c9465",
+      "slug": "outcomes",
+      "path": "/why-maryville/outcomes",
+      "file": "why-maryville/outcomes.html",
+      "title": "Student Outcomes",
+      "parent": "why-maryville",
+      "status": "published"
+    },
+    {
+      "id": "7dcfc306-83e1-4ae1-92b6-f05e73295091",
+      "slug": "become-a-nurse-practitioner",
+      "path": "/pathways/become-a-nurse-practitioner",
+      "file": "pathways/become-a-nurse-practitioner.html",
+      "title": "How to Become a Nurse Practitioner",
+      "parent": "pathways",
+      "status": "published"
+    },
+    {
+      "id": "e22f7584-78c0-4e8d-b052-3bf2952a4300",
+      "slug": "faculty",
+      "path": "/why-maryville/faculty",
+      "file": "why-maryville/faculty.html",
+      "title": "Faculty",
+      "parent": "why-maryville",
+      "status": "published"
+    },
+    {
+      "id": "3b46ddf1-0ae4-45e2-98e4-2d136cbb6805",
+      "slug": "become-a-nurse-educator",
+      "path": "/pathways/become-a-nurse-educator",
+      "file": "pathways/become-a-nurse-educator.html",
+      "title": "How to Become a Nurse Educator",
+      "parent": "pathways",
+      "status": "published"
+    },
+    {
+      "id": "a1929992-d5b9-40b1-92d1-374b96692a9f",
+      "slug": "post-masters-certificate",
+      "path": "/online-nursing-programs/post-masters-certificate",
+      "file": "online-nursing-programs/post-masters-certificate.html",
+      "title": "Post-Master's NP Certificates",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "9790ca77-36fc-436f-9417-efa2dfdfe6f4",
+      "slug": "faq",
+      "path": "/admissions/faq",
+      "file": "admissions/faq.html",
+      "title": "Frequently Asked Questions",
+      "parent": "admissions",
+      "status": "published"
+    },
+    {
+      "id": "069ebf78-0bfe-4cfc-b090-e90ebf2f5526",
+      "slug": "dnp",
+      "path": "/online-nursing-programs/dnp",
+      "file": "online-nursing-programs/dnp.html",
+      "title": "Doctor of Nursing Practice",
+      "parent": "online-nursing-programs",
+      "status": "published"
+    },
+    {
+      "id": "557f068e-f5f1-4a7a-917a-71bacdfb2512",
+      "slug": "accreditation-rankings",
+      "path": "/why-maryville/accreditation-rankings",
+      "file": "why-maryville/accreditation-rankings.html",
+      "title": "Accreditation & Rankings",
+      "parent": "why-maryville",
+      "status": "published"
+    },
+    {
+      "id": "db8caefe-6087-4798-aa9d-99c4f396aa46",
+      "slug": "tuition-financial-aid",
+      "path": "/admissions/tuition-financial-aid",
+      "file": "admissions/tuition-financial-aid.html",
+      "title": "Tuition & Financial Aid",
+      "parent": "admissions",
+      "status": "published"
     }
   ]
 }
