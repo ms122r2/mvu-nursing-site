@@ -2,25 +2,24 @@
   "root": {
     "props": {
       "title": "",
-      "ogImage": "",
-      "bodyFont": "",
-      "accentColor": "#f59e0b",
-      "buttonStyle": "solid",
       "description": "",
+      "ogImage": "",
       "headingFont": "",
-      "borderRadius": "md",
+      "bodyFont": "",
       "primaryColor": "#4f46e5",
-      "secondaryColor": "#1e293b"
+      "secondaryColor": "#1e293b",
+      "accentColor": "#f59e0b",
+      "borderRadius": "md",
+      "buttonStyle": "solid"
     }
   },
-  "zones": {},
   "content": [
     {
       "type": "HeroSection",
       "props": {
         "id": "hero-home-001",
         "ctaHref": "/online-nursing-programs",
-        "heading": "<p style=\"text-align: center;\">Test</p>",
+        "heading": "<p style=\"text-align: center;\">Maryville University</p>",
         "ctaLabel": "Explore Programs",
         "_btnColor": "#4f46e5",
         "alignment": "center",
@@ -144,5 +143,6 @@
         "animationVariant": "fadeUp"
       }
     }
-  ]
+  ],
+  "zones": {}
 }

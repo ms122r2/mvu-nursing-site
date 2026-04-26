@@ -1,0 +1,378 @@
+{
+  "root": {
+    "props": {
+      "title": "Bachelor of Science in Nursing (BSN) | Maryville University",
+      "description": "Earn your BSN online at Maryville. CCNE-accredited, transfer-friendly, with a direct pathway into MSN and DNP study. Prepare for the NCLEX-RN and a leadership-ready nursing career.",
+      "ogImage": "",
+      "headingFont": "Playfair Display",
+      "bodyFont": "Open Sans",
+      "themePreset": "friendly-approachable",
+      "primaryColor": "#B12025",
+      "secondaryColor": "#1B365D",
+      "accentColor": "#F4B223",
+      "borderRadius": "md",
+      "buttonStyle": "solid",
+      "_sectionTokens": false
+    }
+  },
+  "content": [
+    {
+      "type": "HeaderNav",
+      "props": {
+        "id": "nav-1",
+        "logo": "",
+        "sticky": true,
+        "ctaHref": "#rfi",
+        "logoAlt": "Maryville University",
+        "ctaLabel": "Request Info",
+        "navItems": [
+          {
+            "href": "/online-nursing-programs",
+            "label": "Programs"
+          },
+          {
+            "href": "/admissions",
+            "label": "Admissions"
+          },
+          {
+            "href": "/tuition-financial-aid",
+            "label": "Tuition & Aid"
+          },
+          {
+            "href": "/why-maryville",
+            "label": "Why Maryville"
+          }
+        ]
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "hero-1",
+        "ctaHref": "#rfi",
+        "heading": "<p>Bachelor of Science in Nursing</p>",
+        "ctaLabel": "Request Information",
+        "alignment": "center",
+        "subheading": "<p>Build the clinical foundation and leadership mindset the next decade of healthcare demands. CCNE accredited. Transfer-friendly. Stackable into MSN and DNP.</p>",
+        "backgroundImage": "https://nursing.maryville.edu/media_1a776e97c5ed645623d95789ddd89d6e23c2f2c28.jpg?width=1920&format=jpg&optimize=medium",
+        "animationVariant": "fadeUp",
+        "backgroundOverlay": true
+      }
+    },
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "CTABanner-cc2f9864-e047-4ccb-a688-2da352111a37",
+        "_shadow": "none",
+        "ctaHref": "#",
+        "heading": "<p>Ready to Get Started?</p>",
+        "_btnSize": "md",
+        "_opacity": "100",
+        "ctaLabel": "Apply Now",
+        "_bodySize": "",
+        "_btnColor": "#4f46e5",
+        "_paddingX": "",
+        "_animDelay": "0",
+        "_btnRadius": "md",
+        "_marginTop": "",
+        "_animEasing": "easeOut",
+        "_btnVariant": "solid",
+        "_lineHeight": "",
+        "_paddingTop": "",
+        "_scrollOnce": true,
+        "description": "<p>Take the next step in your educational journey today.</p>",
+        "_btnMagnetic": "off",
+        "_headingFont": "",
+        "_headingSize": "",
+        "_animDuration": "0.4",
+        "_borderRadius": "none",
+        "_headingColor": "",
+        "_hideOnMobile": false,
+        "_marginBottom": "",
+        "_scrollEffect": "none",
+        "secondaryHref": "#",
+        "_btnHoverColor": "",
+        "_btnHoverScale": "1.02",
+        "_headingWeight": "",
+        "_hideOnDesktop": false,
+        "_letterSpacing": "",
+        "_mobileColumns": "",
+        "_paddingBottom": "",
+        "_textTransform": "",
+        "secondaryLabel": "Learn More",
+        "_mobilePaddingY": "",
+        "backgroundColor": "brand",
+        "_mobileTextAlign": "",
+        "_paddingX_mobile": "",
+        "_paddingX_tablet": "",
+        "animationVariant": "fadeUp",
+        "_marginTop_mobile": "",
+        "_marginTop_tablet": "",
+        "_mobileHeadingSize": "",
+        "_paddingTop_mobile": "",
+        "_paddingTop_tablet": "",
+        "_marginBottom_mobile": "",
+        "_marginBottom_tablet": "",
+        "_paddingBottom_mobile": "",
+        "_paddingBottom_tablet": ""
+      }
+    },
+    {
+      "type": "StatCard",
+      "props": {
+        "id": "stats-top",
+        "stats": [
+          {
+            "label": " ",
+            "value": "$87K "
+          },
+          {
+            "label": "Maryville BSN Avg Salary",
+            "value": "$96K"
+          },
+          {
+            "label": "Starting Tuition",
+            "value": "$16.2K"
+          },
+          {
+            "label": "Full-Time Completion",
+            "value": "4 yrs"
+          }
+        ],
+        "heading": "<p></p>",
+        "backgroundColor": "light",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "ContentBlock",
+      "props": {
+        "id": "content-1",
+        "body": "The Institute of Medicine called for 80% of the U.S. nursing workforce to hold a BSN. Magnet hospitals require it. Employers increasingly require it. Beyond credentialing, the BSN builds the research, leadership, and population-health competencies that separate nurses who follow the care plan from nurses who shape it.",
+        "image": "https://nursing.maryville.edu/media_19b4a24b43ec640e9af6c0bf3acc5785302c741b8.jpg?width=900&format=jpg&optimize=medium",
+        "heading": "<p>Why the BSN Matters Now</p>",
+        "imagePosition": "right",
+        "backgroundColor": "white",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "FeatureGrid",
+      "props": {
+        "id": "features-1",
+        "columns": "3",
+        "features": [
+          {
+            "icon": "💻",
+            "heading": "100% Online Coursework",
+            "description": "Didactic content delivered fully online on your schedule."
+          },
+          {
+            "icon": "📍",
+            "heading": "Local Clinical Placements",
+            "description": "Complete clinical hours in your own community."
+          },
+          {
+            "icon": "🎓",
+            "heading": "Direct-Entry Pathways",
+            "description": "Stackable credits into MSN and DNP programs."
+          },
+          {
+            "icon": "✅",
+            "heading": "No GRE Required",
+            "description": "Application focuses on academics and goals, not test scores."
+          },
+          {
+            "icon": "📅",
+            "heading": "Six Starts Per Year",
+            "description": "Begin when you're ready — six cohorts annually."
+          },
+          {
+            "icon": "👩‍⚕️",
+            "heading": "Practicing Faculty",
+            "description": "Every instructor is a practicing clinician."
+          }
+        ],
+        "iconStyle": "circle",
+        "sectionHeading": "Program Highlights",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "SalaryExplorer",
+      "props": {
+        "id": "SalaryExplorer-49595991-830a-4d7d-81fc-d61ff3916ce7",
+        "_shadow": "none",
+        "cipCode": "51.3801",
+        "geoMode": "auto",
+        "_opacity": "100",
+        "_paddingX": "",
+        "programId": "d58bc90c-3523-4956-81dd-28ef31149805",
+        "_marginTop": "",
+        "_paddingTop": "",
+        "_borderRadius": "none",
+        "_hideOnMobile": false,
+        "_marginBottom": "",
+        "_hideOnDesktop": false,
+        "_mobileColumns": "",
+        "_paddingBottom": "",
+        "_mobilePaddingY": "",
+        "_mobileTextAlign": "",
+        "_paddingX_mobile": "",
+        "_paddingX_tablet": "",
+        "_marginTop_mobile": "",
+        "_marginTop_tablet": "",
+        "_mobileHeadingSize": "",
+        "_paddingTop_mobile": "",
+        "_paddingTop_tablet": "",
+        "_marginBottom_mobile": "",
+        "_marginBottom_tablet": "",
+        "primaryColorOverride": "",
+        "_paddingBottom_mobile": "",
+        "_paddingBottom_tablet": ""
+      }
+    },
+    {
+      "type": "ContentBlock",
+      "props": {
+        "id": "content-curriculum",
+        "body": "The BSN sequences foundational arts, sciences, and general education (NURS 307 Health Assessment, NURS 309 Pharmacology, NURS 330 Pathophysiology) alongside nursing-specific coursework (NURS 341 Med-Surg, NURS 342 Maternal/Child, NURS 406 Community Health, NURS 416 Leadership). Students complete 120 total credits, with clinical placements integrated throughout the upper-division sequence.",
+        "image": "",
+        "heading": "<p>Curriculum Overview</p>",
+        "imagePosition": "left",
+        "backgroundColor": "gray",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "SalaryExplorer",
+      "props": {
+        "id": "se-1",
+        "cipCode": "51.3801",
+        "geoMode": "national",
+        "programId": "",
+        "primaryColorOverride": ""
+      }
+    },
+    {
+      "type": "MarketProof",
+      "props": {
+        "id": "mp-1",
+        "cipCode": "51.3801",
+        "geoMode": "national",
+        "programId": "",
+        "salaryWidgetId": "se-1",
+        "jobMarketWidgetId": "",
+        "primaryColorOverride": ""
+      }
+    },
+    {
+      "type": "StatCard",
+      "props": {
+        "id": "stats-bottom",
+        "stats": [
+          {
+            "label": "Social Mobility — St. Louis Area",
+            "value": "#1"
+          },
+          {
+            "label": "Graduation Rate — St. Louis",
+            "value": "Top 3"
+          },
+          {
+            "label": "Best Value Colleges",
+            "value": "Forbes"
+          },
+          {
+            "label": "Best College Values",
+            "value": "Kiplinger"
+          }
+        ],
+        "heading": "<p>Rankings &amp; Recognition</p>",
+        "backgroundColor": "dark",
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "TestimonialSection",
+      "props": {
+        "id": "testimonials-1",
+        "columns": "3",
+        "heading": "<p>From Our BSN Students</p>",
+        "testimonials": [
+          {
+            "name": "Joe B.",
+            "role": "RN to BSN Student",
+            "image": "",
+            "quote": "I feel like Maryville is really helping to prepare me for my career path."
+          },
+          {
+            "name": "Tiffany N.",
+            "role": "DNP Graduate",
+            "image": "",
+            "quote": "Each semester built upon the previous one, so we're learning as we go."
+          },
+          {
+            "name": "Celena S.",
+            "role": "Post-Master's NP Graduate",
+            "image": "",
+            "quote": "It's never going to be a perfect time — just step out and do it."
+          }
+        ],
+        "animationVariant": "stagger"
+      }
+    },
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-1",
+        "ctaHref": "#rfi",
+        "heading": "<p>Start Your Bachelor of Science in Nursing Today</p>",
+        "ctaLabel": "Request Information",
+        "description": "<p>Speak with an enrollment advisor today. No pressure, no fees — just answers.</p>",
+        "secondaryHref": "/online-nursing-programs",
+        "secondaryLabel": "Explore Programs",
+        "backgroundColor": "brand",
+        "animationVariant": "fadeUp"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "footer-1",
+        "logo": "",
+        "columns": [
+          {
+            "content": "RN to BSN\nBSN\nMSN\nDNP\nPost-Master's Certificates",
+            "heading": "Programs"
+          },
+          {
+            "content": "How to Apply\nTuition & Aid\nAccreditation\nFAQ",
+            "heading": "Admissions"
+          },
+          {
+            "content": "1-800-627-9855\nonline@maryville.edu",
+            "heading": "Contact"
+          }
+        ],
+        "logoAlt": "Maryville University",
+        "copyright": "© 2026 Maryville University. All rights reserved.",
+        "bottomLinks": [
+          {
+            "href": "/privacy",
+            "label": "Privacy"
+          },
+          {
+            "href": "/accessibility",
+            "label": "Accessibility"
+          },
+          {
+            "href": "/consumer-info",
+            "label": "Consumer Info"
+          }
+        ]
+      }
+    }
+  ],
+  "zones": {}
+}

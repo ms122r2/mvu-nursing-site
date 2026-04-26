@@ -10,6 +10,18 @@ permissions:
   pull-requests: read
 
 jobs:
+  # Enforces the invariant: main only accepts PRs from staging. Devs who
+  # branch off main and try to PR directly get blocked here.
+  head-branch-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require PR from staging
+        run: |
+          if [ "${{ github.head_ref }}" != "staging" ]; then
+            echo "::error::PRs into main must come from the 'staging' branch. This PR is from '${{ github.head_ref }}'. Merge your changes into staging first via a separate PR."
+            exit 1
+          fi
+
   build:
     runs-on: ubuntu-latest
     outputs:
