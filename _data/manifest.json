@@ -1,6 +1,6 @@
 {
   "siteId": "4bd28077-a763-4073-b970-6a48cc8ac314",
-  "publishedAt": "2026-04-24T14:30:18.980Z",
+  "publishedAt": "2026-04-26T02:17:38.640Z",
   "pages": [
     {
       "id": "6ab58467-111c-4d7b-ba8d-23687436697e",
@@ -130,7 +130,15 @@
       "title": "Bachelor of Science in Nursing",
       "parent": "online-nursing-programs",
       "status": "published",
-      "publishedAt": "2026-04-24T14:30:17.049+00:00"
+      "publishedAt": "2026-04-26T02:17:36.331+00:00"
+    },
+    {
+      "id": "f1c8c5e4-3881-414c-a244-d50d5d04b704",
+      "slug": "hero-split",
+      "path": "/hero-split",
+      "file": "hero-split.html",
+      "title": "Hero — Split",
+      "status": "published"
     },
     {
       "id": "b97ccb70-6581-4409-8746-b4be4d4c9465",
@@ -151,6 +159,14 @@
       "status": "published"
     },
     {
+      "id": "8bb31555-ae29-4282-bae1-f8ede827e029",
+      "slug": "hero-minimal",
+      "path": "/hero-minimal",
+      "file": "hero-minimal.html",
+      "title": "Hero — Minimal",
+      "status": "published"
+    },
+    {
       "id": "e22f7584-78c0-4e8d-b052-3bf2952a4300",
       "slug": "faculty",
       "path": "/why-maryville/faculty",
@@ -166,6 +182,30 @@
       "file": "pathways/become-a-nurse-educator.html",
       "title": "How to Become a Nurse Educator",
       "parent": "pathways",
+      "status": "published"
+    },
+    {
+      "id": "4fa300be-d3dd-4ea1-9c7a-4c21cc759412",
+      "slug": "preset-none",
+      "path": "/preset-none",
+      "file": "preset-none.html",
+      "title": "Preset: None (defaults)",
+      "status": "published"
+    },
+    {
+      "id": "97ac77b1-8d07-43ea-a2cd-d6f060447bee",
+      "slug": "preset-modern",
+      "path": "/preset-modern",
+      "file": "preset-modern.html",
+      "title": "Preset: Modern Tech",
+      "status": "published"
+    },
+    {
+      "id": "01bd26ad-7e99-42bf-9189-6b399a56737c",
+      "slug": "preset-bold",
+      "path": "/preset-bold",
+      "file": "preset-bold.html",
+      "title": "Preset: Bold Editorial",
       "status": "published"
     },
     {
@@ -205,12 +245,52 @@
       "status": "published"
     },
     {
+      "id": "eb206839-de25-48f0-a4bb-ba056fd7c517",
+      "slug": "preset-academic",
+      "path": "/preset-academic",
+      "file": "preset-academic.html",
+      "title": "Preset: Academic Conservative",
+      "status": "published"
+    },
+    {
+      "id": "46d4112b-9734-4705-aaa0-54c88c85a8f9",
+      "slug": "preset-friendly",
+      "path": "/preset-friendly",
+      "file": "preset-friendly.html",
+      "title": "Preset: Friendly Approachable",
+      "status": "published"
+    },
+    {
+      "id": "9008b799-56db-4ece-895d-e012d469022a",
+      "slug": "preset-minimal",
+      "path": "/preset-minimal",
+      "file": "preset-minimal.html",
+      "title": "Preset: Minimal Clean",
+      "status": "published"
+    },
+    {
       "id": "db8caefe-6087-4798-aa9d-99c4f396aa46",
       "slug": "tuition-financial-aid",
       "path": "/admissions/tuition-financial-aid",
       "file": "admissions/tuition-financial-aid.html",
       "title": "Tuition & Financial Aid",
       "parent": "admissions",
+      "status": "published"
+    },
+    {
+      "id": "f4986a32-f1a3-43fd-9f74-9156fbcb2c0e",
+      "slug": "hero-centered",
+      "path": "/hero-centered",
+      "file": "hero-centered.html",
+      "title": "Hero — Centered",
+      "status": "published"
+    },
+    {
+      "id": "52dda51f-c87c-479e-b1c0-5b9b848faa2d",
+      "slug": "hero-editorial",
+      "path": "/hero-editorial",
+      "file": "hero-editorial.html",
+      "title": "Hero — Editorial",
       "status": "published"
     }
   ]

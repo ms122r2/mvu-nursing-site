@@ -6,11 +6,13 @@
       "ogImage": "",
       "headingFont": "Playfair Display",
       "bodyFont": "Open Sans",
+      "themePreset": "friendly-approachable",
       "primaryColor": "#B12025",
       "secondaryColor": "#1B365D",
       "accentColor": "#F4B223",
       "borderRadius": "md",
-      "buttonStyle": "solid"
+      "buttonStyle": "solid",
+      "_sectionTokens": false
     }
   },
   "content": [
@@ -51,7 +53,7 @@
         "heading": "<p>Bachelor of Science in Nursing</p>",
         "ctaLabel": "Request Information",
         "alignment": "center",
-        "subheading": "Build the clinical foundation and leadership mindset the next decade of healthcare demands. CCNE accredited. Transfer-friendly. Stackable into MSN and DNP.",
+        "subheading": "<p>Build the clinical foundation and leadership mindset the next decade of healthcare demands. CCNE accredited. Transfer-friendly. Stackable into MSN and DNP.</p>",
         "backgroundImage": "https://nursing.maryville.edu/media_1a776e97c5ed645623d95789ddd89d6e23c2f2c28.jpg?width=1920&format=jpg&optimize=medium",
         "animationVariant": "fadeUp",
         "backgroundOverlay": true
@@ -199,35 +201,35 @@
     {
       "type": "SalaryExplorer",
       "props": {
-        "cipCode": "51.3801",
-        "programId": "d58bc90c-3523-4956-81dd-28ef31149805",
-        "geoMode": "auto",
-        "primaryColorOverride": "",
-        "_paddingTop": "",
-        "_paddingBottom": "",
-        "_paddingX": "",
-        "_marginTop": "",
-        "_marginBottom": "",
-        "_borderRadius": "none",
+        "id": "SalaryExplorer-49595991-830a-4d7d-81fc-d61ff3916ce7",
         "_shadow": "none",
+        "cipCode": "51.3801",
+        "geoMode": "auto",
         "_opacity": "100",
+        "_paddingX": "",
+        "programId": "d58bc90c-3523-4956-81dd-28ef31149805",
+        "_marginTop": "",
+        "_paddingTop": "",
+        "_borderRadius": "none",
         "_hideOnMobile": false,
+        "_marginBottom": "",
         "_hideOnDesktop": false,
-        "_paddingTop_tablet": "",
-        "_paddingBottom_tablet": "",
-        "_paddingX_tablet": "",
-        "_marginTop_tablet": "",
-        "_marginBottom_tablet": "",
-        "_paddingTop_mobile": "",
-        "_paddingBottom_mobile": "",
-        "_paddingX_mobile": "",
-        "_marginTop_mobile": "",
-        "_marginBottom_mobile": "",
-        "_mobileTextAlign": "",
         "_mobileColumns": "",
+        "_paddingBottom": "",
         "_mobilePaddingY": "",
+        "_mobileTextAlign": "",
+        "_paddingX_mobile": "",
+        "_paddingX_tablet": "",
+        "_marginTop_mobile": "",
+        "_marginTop_tablet": "",
         "_mobileHeadingSize": "",
-        "id": "SalaryExplorer-49595991-830a-4d7d-81fc-d61ff3916ce7"
+        "_paddingTop_mobile": "",
+        "_paddingTop_tablet": "",
+        "_marginBottom_mobile": "",
+        "_marginBottom_tablet": "",
+        "primaryColorOverride": "",
+        "_paddingBottom_mobile": "",
+        "_paddingBottom_tablet": ""
       }
     },
     {
@@ -321,41 +323,11 @@
       }
     },
     {
-      "type": "FAQSection",
-      "props": {
-        "id": "faq-1",
-        "items": [
-          {
-            "answer": "The BSN is for students pursuing their first nursing credential. The RN to BSN is a completion program for RNs who hold an associate degree or diploma in nursing and already have an active RN license.",
-            "question": "What's the difference between the BSN and RN to BSN?"
-          },
-          {
-            "answer": "Full-time students typically complete the BSN in four years. The timeline can flex based on transfer credits and course load.",
-            "question": "How long does the BSN take?"
-          },
-          {
-            "answer": "Yes. The BSN is designed to prepare you for the NCLEX-RN licensure exam. Maryville's pass rates exceed national averages.",
-            "question": "Will I be prepared for the NCLEX?"
-          },
-          {
-            "answer": "Maryville's clinical placement team partners with hospitals and health systems nationwide and works with you to secure placements in your community.",
-            "question": "Are clinical placements arranged for me?"
-          },
-          {
-            "answer": "Yes. Many students begin part-time while completing prerequisites or balancing work/family. An enrollment advisor can map a pacing plan.",
-            "question": "Can I start part-time?"
-          }
-        ],
-        "heading": "<p>BSN FAQ</p>",
-        "animationVariant": "stagger"
-      }
-    },
-    {
       "type": "CTABanner",
       "props": {
         "id": "cta-1",
         "ctaHref": "#rfi",
-        "heading": "<p>Start Your BSN Today</p>",
+        "heading": "<p>Start Your Bachelor of Science in Nursing Today</p>",
         "ctaLabel": "Request Information",
         "description": "<p>Speak with an enrollment advisor today. No pressure, no fees — just answers.</p>",
         "secondaryHref": "/online-nursing-programs",
